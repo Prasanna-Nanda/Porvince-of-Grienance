@@ -1,0 +1,307 @@
+/* font-family: 'The Nautigal', cursive; */
+
+/* font-family: 'Staatliches', cursive;
+font-family: 'The Nautigal', cursive; */
+
+/* font-family: 'Neonderthaw', cursive;
+font-family: 'Staatliches', cursive;
+font-family: 'The Nautigal', cursive; */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color:#191919; */
+    
+}
+.body-g{
+    background-color: #484848;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 10px;
+    flex-direction: column;
+    height: 100%;
+}
+
+.display_image{
+    width: 327px;
+    height: 211px;
+    /* background-color: #484848; */
+    border: 3px solid orange;
+    background-position: center;
+    background-size: cover;
+}
+
+.get_value{
+    /* background-color: #484848; */
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.tb{
+    
+    margin: 4px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+.tb_1{
+    
+    margin: 4px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.input-box{
+    /* margin-top: 30px; */
+    width: 500px;
+    background: white;
+    border: 1px solid #fff;
+    margin: 40px 0;
+    height: 80px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color:#241438;
+    font-weight: bold;
+}
+
+/* .tbtn{
+    width: 80px;
+height: 30px;
+margin: 40px 80px;
+background-color: #241438;
+color: #fff;
+} */
+
+.tbtn_1{
+width: 80px;
+height: 30px;
+margin: 40px 80px;
+background-color: #241438;
+color: #fff;
+}
+
+.output{
+
+    width: 500px;
+    background: white;
+    border: 1px solid #fff;
+    margin: 40px 80px 60px 90px;
+    height: 80px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color:#241438;
+    font-weight: bold;
+
+}
+
+.nav-bar{
+    background: #939292;
+    min-height: 90px;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    align-items: center;
+    
+}
+
+
+.logo{
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 33%;
+}
+
+nav .logo{
+    width:500px;
+    margin-right: 200px;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* nav .logo{
+    width: 325px;
+    cursor: pointer;
+} */
+
+.main-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 100vh;
+
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: 0px 0px 20px #d4d4d4;
+
+    transition: 0.3s ease;
+}
+
+.main-menu:hover{
+    width: 250px;
+    overflow-y: scroll;
+}
+
+.main-menu .menu-item{
+    padding: 10px;
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+    font-weight: 300;
+    color: #f9004d;
+}
+
+.main-menu .menu-item:hover{
+    background-color: #d6d6d6;
+    cursor: pointer;
+}
+
+.main-menu .menu-item .fas{
+    font-size: 27px;
+    width: 40px;
+    padding: 25px 7%;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent !important;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: #bbbbbb;
+    border-radius: 10px;
+}
+
+
+.service{
+    background: #939292;
+    width: 100%;
+    padding: 100px 0px;
+}  
+.title h2{
+    color: #484848;
+    font-size: 40px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #b8b6b6;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #241438;
+}
+
+h5{
+    color: rgb(26, 14, 138);
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.animal p{
+     color: rgba(21, 187, 57, 0.8);
+     font-size: 16px;
+     line-height: 27px;
+     margin-bottom: 25px;
+     font-family: 'Staatliches', cursive;
+}
+
+.card .button{
+    background-color: #241438;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #241438;
+    cursor: pointer;
+}
+
+
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p{
+    color: whitesmoke;
+    font-size: 50px;
+    /* font-weight: bold; */
+    margin-bottom: 25px;
+    font-family: 'Neonderthaw', cursive;
+}
+
+.contact-me .button-two{
+    background-color: #241438;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid #241438;
+    cursor: pointer;
+}
+
+

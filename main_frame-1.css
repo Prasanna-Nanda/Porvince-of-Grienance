@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color:#191919; */
+}
+
+.nav-bar{
+    background: #939292;
+    min-height: 90px;
+    width: 100%;
+    color: #fff;    
+    position: relative;
+    align-items: center;
+    
+}
+
+.display_image{
+    width: 327px;
+    height: 211px;
+    border: 3px solid blue;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 33%;
+}
+
+nav .logo{
+    width:500px;
+    margin-right: 200px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.service{
+    background: #939292;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: #484848;
+    font-size: 40px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #b8b6b6;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #241438;
+}
+
+h5{
+    color: rgb(26, 14, 138);
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.animal p{
+     color: rgba(21, 187, 57, 0.8);
+     font-size: 16px;
+     line-height: 27px;
+     margin-bottom: 25px;
+     font-family: 'Staatliches', cursive;
+}
+
+.card .button{
+    background-color: #241438;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #241438;
+    cursor: pointer;
+}
